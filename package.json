@@ -4,7 +4,8 @@
   "description": "截图工具",
   "main": "index.js",
   "scripts": {
-    "dev:views": "webpack serve --config webpack.views.config.js --progress"
+    "dev:views": "webpack serve --config webpack.views.config.js --progress",
+    "build:views": "webpack --config webpack.prod.config.js"
   },
   "repository": {
     "type": "git",

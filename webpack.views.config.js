@@ -14,7 +14,7 @@ config
   .mode('development')
   .context(path.resolve(__dirname, './')) // 指定项目根目录
   .entry('app') // 指定入口文件名称为app
-    .add(path.resolve(__dirname, './src/renderer/views/home/main.js')) // 入口文件
+    .add(path.resolve(__dirname, './src/renderer/views/home/main.ts')) // 入口文件
     .end()
   .output
     .path(path.resolve(__dirname, './build/dist')) // webpack打包输出的文件夹
