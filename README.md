@@ -1,2 +1,6 @@
 # electron-screenshot
-截图工具
+```js
+npm install
+npm run dev:view
+npm run dev:app
+```

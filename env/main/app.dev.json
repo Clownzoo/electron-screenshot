@@ -1,0 +1,15 @@
+{
+  "env": "dev",
+  "appName": "Screen.dev",
+  "debug": true,
+  "pages": [
+    {
+      "name": "home",
+      "title": "home",
+      "url": "http://localhost:8888",
+      "width": 800,
+      "height": 500,
+      "enter": true
+    }
+  ]
+}

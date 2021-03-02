@@ -37,7 +37,7 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    ".src//typings/images.d.ts",
+    ".src//typings/images.d.ts", "src/main/index.js",
   ],
   "exclude": [ // ts 排除的文件，不编译这些目录里的文件
     "node_modules"
