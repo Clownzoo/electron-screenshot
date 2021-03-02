@@ -20,8 +20,8 @@ class Main {
 
   init() {
     app.whenReady().then(() => {
-    }).then(() => {
       require('./modules/win-manager');
+      require('./modules/tray-manager');
     });
   }
 }

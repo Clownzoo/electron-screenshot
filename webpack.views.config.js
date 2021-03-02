@@ -188,7 +188,7 @@ config
     warnings: false,
     errors: true
   }) // webpack错误和警告信息显示到页面，webpack5好像没有生效，还在排查问题。
-  .open(true) // 自动打开页面
+  // .open(true) // 自动打开页面
   .end();
 config
   .devtool('eval-cheap-module-source-map'); // 速度快(eval>inline>cheap>...) 错误代码准确信息 和 源代码的错误位置 精确到行

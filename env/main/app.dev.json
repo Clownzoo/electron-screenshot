@@ -2,13 +2,14 @@
   "env": "dev",
   "appName": "Screen.dev",
   "debug": true,
+  "version": "0.0.1",
   "pages": [
     {
-      "name": "home",
+      "id": "home",
       "title": "home",
       "url": "http://localhost:8888",
-      "width": 800,
-      "height": 500,
+      "width": 550,
+      "height": 200,
       "enter": true
     }
   ]
